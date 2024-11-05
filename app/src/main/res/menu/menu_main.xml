@@ -1,0 +1,15 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_order"
+        android:icon="@drawable/plus"
+        android:title="Сделать заказ"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:title="Поделиться"
+        android:icon="@drawable/share"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        app:showAsAction="ifRoom" />
+</menu>
